@@ -3,6 +3,6 @@
     <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
         <Label Text="Welcome to Xamarin.Forms!" FontFamily="Samantha" FontSize="50" HorizontalTextAlignment="Center" />
 
-        <Label Text="&#xf584;" FontFamily="FontAwesome" FontSize="50" HorizontalTextAlignment="Center" />
+        <Label Text="&#xf584;" FontFamily="FA5Regular" FontSize="50" HorizontalTextAlignment="Center" />
     </StackLayout>
 </ContentPage>
