@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.1580" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.530" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
   <ItemGroup>
@@ -19,10 +19,12 @@
     <Folder Include="Resources\Fonts\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Fonts\FA5Regular.otf" />
-    <EmbeddedResource Include="Resources\Fonts\Samantha.ttf" />
+    <None Remove="Resources\Fonts\Samantha_font.ttf" />
+    <None Remove="Resources\Fonts\FA5Regular.otf" />
+    <None Remove="Resources\Fonts\Samantha.ttf" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Resources\Fonts\Samantha.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\FA5Regular.otf" />
+    <EmbeddedResource Include="Resources\Fonts\Samantha.ttf" />
   </ItemGroup>
 </Project>
